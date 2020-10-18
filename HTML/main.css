@@ -1,0 +1,184 @@
+/* flex*/
+.flex{
+	display:flex
+}
+
+/* justify */
+.flex.content-center{
+	justify-content: center;
+}
+.flex.between{
+	justify-content: space-between;
+}
+.flex.around{
+	justify-content: space-around;
+}
+.flex.content-end{
+	justify-content: flex-end;
+}
+
+/* direction*/
+.flex.row{
+	flex-direction: row;
+}
+.flex.row-reverse{
+	flex-direction: row-reverse;
+}
+.flex.column{
+	flex-direction: column;
+}
+.flex.column-reverse{
+	flex-direction: column-reverse;
+}
+/* direction*/
+.flex.row{
+	flex-direction: row;
+}
+.flex.reverse{
+	flex-direction: row-reverse;
+}
+.flex.column{
+	flex-direction: column;
+}
+.flex.column-reverse{
+	flex-direction: column-reverse;
+}
+
+/* flex-wrap */
+.flex.wrap{
+	flex-wrap: wrap;
+}
+.flex.wrap-reverse{
+	flex-wrap: wrap-reverse;
+}
+
+/* alin-items */
+.flex.items-end{
+	align-items: flex-end;
+}
+.flex.items-center{
+	align-items: center;
+}
+.flex.baseline{
+	align-items: baseline;
+}
+.flex.strech{
+	align-items: stretch;
+}
+
+/* order */
+.flex-item.order-1{
+	order: -1;
+}
+.flex-item.order-2{
+	order: -2;
+}
+.flex-item.order-3{
+	order: -3;
+}
+.flex-item.order-4{
+	order: -4;
+}
+.flex-item.order-5{
+	order: -5;
+}
+.flex-item.order-6{
+	order: -6;
+}
+.flex-item.order-7{
+	order: -7;
+}
+.flex-item.order-8{
+	order: -8;
+}
+.flex-item.order-9{
+	order: -9;
+}
+.flex-item.order-10{
+	order: -10;
+}
+.flex-item.order1{
+	order: 1;
+}
+.flex-item.order2{
+	order: 2;
+}
+.flex-item.order3{
+	order: 3;
+}
+.flex-item.order4{
+	order: 4;
+}
+.flex-item.order5{
+	order: 5;
+}
+.flex-item.order6{
+	order: 6;
+}
+.flex-item.order7{
+	order: 7;
+}
+.flex-item.order8{
+	order: 8;
+}
+.flex-item.order9{
+	order: 9;
+}
+.flex-item.order10{
+	order: 10;
+}
+
+
+/* shrink */
+.flex-item.noshrink{
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+/* flex */
+.flex-item.flex1{
+	flex: 1;
+}
+.flex-item.flex2{
+	flex: 2;
+}
+.flex-item.flex3{
+	flex: 3;
+}
+.flex-item.flex4{
+	flex: 4;
+}
+.flex-item.flex5{
+	flex: 5;
+}
+.flex-item.flex6{
+	flex: 6;
+}
+.flex-item.flex7{
+	flex: 7;
+}
+.flex-item.flex8{
+	flex: 8;
+}
+.flex-item.flex9{
+	flex: 9;
+}
+.flex-item.flex10{
+	flex: 10;
+}
+/* align-self */
+.flex-item.start{
+	align-self: flex-start;
+}
+.flex-item.center{
+	align-self: center;
+}
+.flex-item.end{
+	align-self: flex-end;
+}
+.flex-item.baseline{
+	align-self: baseline;
+}
+.flex-item.stretch{
+	align-self: stretch;
+}
+
