@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #directory
 node_modules/
 
@@ -22,3 +23,18 @@ bin-release/
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
 >>>>>>> 81371448b24dee30cf5c7cf3383adfd0095b8aa2
+=======
+#directory
+APICloud/
+# HTML/
+Java/
+Python/
+TimeNage/
+uniapp/
+test/
+<<<<<<< HEAD
+resource/
+tenyeng/
+=======
+>>>>>>> f6f93c9566a9d848c157580a0a2196a33c0f8066
+>>>>>>> 23aa1607c7c0d4ce5692f009017f1f41470e1c68
