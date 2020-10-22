@@ -3,12 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" type='text/css' href="./css/main.css"> -->
   <title>Document</title>
+  <script src="./js/vue.min.js"></script>
 </head>
 <body>
-  <div>1</div>
-  <div>2</div>
-  
+  <div>
+    <button @click="DownloadUniApp">
+      <a href="itms-services://?action=download-manifest&url=https://192.168.50.72:3000/uniapp/uniapp.plist">uniapp</a>
+    </button>
+  </div>
+  <script>
+    let app = new Vue({
+      el:'#app',
+      methods:{
+        DownloadUniApp(){
+          let url="http://192.168.50.72:3000/uniapp/uniapp.plist"
+          window.location = "itms-services://?action=download-manifest&url=" + url;
+        }
+      }
+    })
+  </script>
 </body>
 </html>
